@@ -1,4 +1,5 @@
-if (navigator) {
+// geolocationの利用可能性の確認
+if (navigator.geolocation) {　
   // 現在地を取得
   navigator.geolocation.getCurrentPosition(
 
